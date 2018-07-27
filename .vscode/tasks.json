@@ -22,6 +22,11 @@
       "label": "Drop and reset database",
       "type": "shell",
       "command": "rake db:{drop,create,migrate,seed}"
+    },
+    {
+      "label": "Update master",
+      "type": "shell",
+      "command": "git checkout master && git pull origin master"
     }
   ]
 }
