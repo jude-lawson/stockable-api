@@ -10,5 +10,6 @@ RSpec.describe Store do
   describe 'Relationships' do
     it { should have_many(:employees) }
     it { should have_many(:users).through(:employees) }
+    it { should have_many(:items) }
   end
 end

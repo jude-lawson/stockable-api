@@ -3,4 +3,5 @@ class Store < ApplicationRecord
 
   has_many :employees
   has_many :users, through: :employees
+  has_many :items
 end
