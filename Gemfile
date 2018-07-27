@@ -20,6 +20,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'launchy'
+  gem 'factory_bot_rails'
 end
 
 group :test do
