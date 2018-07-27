@@ -17,6 +17,11 @@
       "label": "Run migrations",
       "type": "shell",
       "command": "rake db:migrate"
+    },
+    {
+      "label": "Drop and reset database",
+      "type": "shell",
+      "command": "rake db:{drop,create,migrate,seed}"
     }
   ]
 }
