@@ -7,6 +7,16 @@
      "label": "Run current test",
      "type": "shell",
      "command": "rspec ${file}" 
+    },
+    {
+      "label": "Run all tests",
+      "type": "shell",
+      "command": "rspec"
+    },
+    {
+      "label": "Run migrations",
+      "type": "shell",
+      "command": "rake db:migrate"
     }
   ]
 }
